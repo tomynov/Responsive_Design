@@ -10,10 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Meta title = important pour le référencement titre de la page lu par Google -->
     <title>Silver Bird</title>
+        <!-- logo -->
+    <link rel="icon" href="assets/img/logo_webSite.PNG">
         <!-- meta description -->
     <meta name="description" content="ma description">
         <!-- fichier css -->
     <link rel="stylesheet" href="assets/css/style.css">
+        <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- police-libreBaskerville -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <!-- police-hkGrotesk -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
         <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
@@ -25,21 +33,21 @@
             <nav class="nav__header">
                 <div class="header__waether">
                     <!-- <i class="fas fa-cloud-sun-rain"></i> -->
-                    <img src="assets/img/PICTO-NUAGES-PLUIE-SOLEIL.png" alt="picto__weather">
+                    <img class="picto__weather" src="assets/img/PICTO-NUAGES-PLUIE-SOLEIL.png" alt="picto__weather">
                     <div class="header__date">
-                        <p class="text__date">Lun 31 mai</p>
-                        <p class="text__weather">12° à Paris</p>
+                        <p class="text__date color__blue">Lun 31 mai</p>
+                        <p class="text__weather color__grey">12° à Paris</p>
                     </div>
                 </div>
                 <div class="header__logo">
-                    <img src="assets/img/logo_webSite.PNG" alt="logo__webSite">
+                    <img id="logo__webSite" src="assets/img/logo_webSite.PNG" alt="logo__webSite">
                 </div>
-                <ul>
+                <ul class="header__burger">
                     <li class="nav__text">
-                        <a class="nav__link" href="about.html"> A propos</a>
+                        <a class="nav__link color__blue" href="about.html"> A propos</a>
                     </li>
                     <li class="nav__text">
-                        <a class="nav__link" href="search.html"> Rechercher</a>
+                        <a class="nav__link color__blue" href="search.html"> Recherche</a>
                     </li>
                     <i class="fab fa-instagram"></i>
                 </ul>
@@ -48,19 +56,18 @@
             <nav class="header__menu">
                 <ul class="nav__title">
                     <li class="nav__text">
-                        <a class="nav__link" href="#">montres</a>
+                        <a class="nav__link subtitles color__blue" href="#">montres</a>
                     </li>
                     <li class="nav__text">
-                        <a class="nav__link" href="#">automobile</a>
+                        <a class="nav__link subtitles color__blue" href="#">automobile</a>
                     </li>
                     <li class="nav__text">
-                        <a class="nav__link" href="#">lifestyle</a>
+                        <a class="nav__link subtitles color__blue" href="#">lifestyle</a>
                     </li>
                     <li class="nav__text">
-                        <a class="nav__link" href="#">sport</a>
+                        <a class="nav__link subtitles color__blue" href="#">sport</a>
                     </li>
                 </ul>
-
             </nav>
         </section>
     </header>

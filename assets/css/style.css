@@ -1,0 +1,80 @@
+/* font-family: 'Libre Baskerville', serif; */
+*{
+    margin: 0;
+}
+
+                                            /**** HEADER *****/
+
+.nav__header{
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__waether{
+    width: 26%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.picto__weather{
+    width: 40%;
+}
+
+.header__burger{
+    padding: auto 5px;
+}
+
+.color__blue{
+    text-transform: uppercase;
+    color: #003B5C;
+    font-family: 'HK Grotesk', sans-serif;
+    /* color: orangered; */
+}
+
+.color__grey{
+    color: #5d534fa9;
+}
+
+.header__date{
+    font-size: 12px;
+}
+
+.header__logo{
+    width: 48%;
+    margin: auto 1rem;
+}
+
+#logo__webSite{
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__line{
+    border: 1px solid #E3DACC;
+    width: 112%;
+    margin: 1rem auto;
+}
+
+.nav__title{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.subtitles{
+    margin: 10px;
+}
+
+                                            /**** MAIN *****/
