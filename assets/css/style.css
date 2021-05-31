@@ -42,6 +42,7 @@
 .header__logo{
     width: 48%;
     margin: auto 1rem;
+    text-align: center;
 }
 
 #logo__webSite{
@@ -135,6 +136,7 @@ a{
                         /* Start Informations */
 
 .title__info{
+    border: 1px solid #E3DACC;
     box-shadow: 10px 5px 1px #E3DACC;
     width: 90%;
     margin: 10px 1rem;
@@ -270,7 +272,8 @@ a{
 .separ__footer{
     border: 1px solid #E3DACC;
     width: 99%;
-    margin: 1rem auto;}
+    margin: 1rem auto;
+}
 
 .end__footer{
     display: flex;
@@ -291,9 +294,264 @@ a{
 
                                         /***** Responsive  *****/
 
-@media (min-height: 1024px){
+                                /* Responsive for Ipad Pro */
 
+@media (min-width: 1024px){
+
+        /* Header Responsive */
+
+    .header__waether{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .picto__weather{
+        width: 15%;
+        margin: auto 10px;
+    }
+
+    #logo__webSite{
+        width: 55%;
+    }
+
+    .nav__header{
+        align-items: center;
+        margin: 1rem 3rem;
+    }
+
+    .header__burger{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav__text{
+        margin: auto 1rem;
+    }
+
+                                    /*** Main Responsive ****/
+
+                /* Start News */
+    .top__main{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 2rem;
+    }
+
+    .sect_info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sect__life{
+        text-align: center;
+    }
+
+    #picture__whisky{
+        width: 80%;
+    }
+
+    .block__text{
+        width: 65%;
+        margin-left: 5rem;
+        padding: 1rem;
+    }
+
+    .subtiles__news{
+        font-size: 12px;
+    }
+
+    .title__news{
+        margin: 1rem auto;
+    }
+
+    .more__text{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+                    /* Start Informations */
+
+    .block__top__info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     
+    .separ{
+        border: 1px solid #E3DACC;
+        width: 99%;
+        height: 1px;
+    }
+
+    .title__info{
+        width: 30%;
+        text-align: center;
+        letter-spacing: 1px;
+        box-shadow: 3px 3px 1px #e3dacc;
+    }
+
+    #title__h4 {
+        font-size: 23px;
+    }
+
+    .top__info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list__info{
+        justify-content: center;
+        text-align: center;
+        margin-left: 14rem;
+    }
+
+    .space__subtitles{
+        margin: auto 1rem;
+    }
+
+    .img__infos{
+        width: 94%;
+    }
+
+    .sub__info{
+        justify-content: left;
+    }
+
+    #montre_3{
+        width: 100%;
+    }
+
+    #sport_3{
+        width: 83%;
+    }
+
+
+
+
+                    /* NewsLetter */
+
+    .sect__newsletter{
+        height: 13rem;
+        padding: 5rem;
+    }
+
+    .title__newsletter{
+        font-size: 32px;
+    }
+
+    .text__newsletter{
+        width: 71%;
+        font-size: 23px;
+        margin: 2rem auto;
+    }
+
+    .button__signUp{
+        padding: 10px 3rem;
+        margin-top: 1rem;
+        box-shadow: 6px 6px 2px #e74832;
+    }
+
+
+
+                                    /**** Footer  ****/
+    
+    .top__footer{
+        flex-wrap: nowrap;
+    }   
+    
+    .block__img__footer{
+        width: 26%;
+    }
+    
+    .img__foot{
+        width: 100%;
+    }
+
+    .list__footer{
+        text-align: left;
+    }
+
+    #button__footer{
+        padding: 5px 2rem;
+        border: 1px solid white;
+        padding: 12px 1rem;
+        font-weight: normal;
+        box-shadow: 6px 6px 2px rgba(255, 255, 255, 0.150);
+    }
+
+    .subtitle__foot{
+        margin-bottom: 1rem;
+    }
+
 }
+
+                                /* Responsive for Computer */
+
+@media (min-width: 1024px){
+
+    /* Header Responsive */
+
+    .picto__weather{
+        width: 7%;
+        margin: auto 10px;
+    }
+
+    #logo__webSite{
+        width: 40%;
+    }
+
+                                /*** Main Responsive ****/
+
+            /* Start News */
+
+    #sect__life{
+        width: 69%;
+    }
+
+    #picture__whisky{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+            /* Start Informations */
+
+    .sect__top__info{
+        margin-top: 5rem;
+    }
+
+    .separ__info__list{
+        border: 1px solid #E3DACC;
+        height: 10px;
+    }
+    
+    .list__info{
+        margin-left: 28rem;
+    }
+
+    .list__montre{
+        margin-left: 33rem;
+    }
+
+    .text__news__1{
+        width: 99%;
+    }
+
+    #montre_3{
+        width: 94%;
+    }
+
+    #sport_3 {
+        width: 92%;
+    }
+
+            /* NewsLetter */
+
+    .text__newsletter{
+        width: 46%;
+    }
+
+
+}
+
 
 
